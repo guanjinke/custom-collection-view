@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ip6-Ll-rSJ" customClass="CollectionHeaderView" customModule="test13" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ua2-hf-0oF">
+                    <rect key="frame" x="8" y="13" width="304" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.7607843876" green="0.63921570780000003" blue="0.85882359740000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ua2-hf-0oF" firstAttribute="top" secondItem="Ip6-Ll-rSJ" secondAttribute="top" constant="20" id="Ihk-7b-mKd"/>
+                <constraint firstItem="ua2-hf-0oF" firstAttribute="leading" secondItem="Ip6-Ll-rSJ" secondAttribute="leading" constant="8" id="MC3-iB-Zde"/>
+                <constraint firstAttribute="trailing" secondItem="ua2-hf-0oF" secondAttribute="trailing" constant="8" id="Wog-Lj-2M1"/>
+                <constraint firstAttribute="centerY" secondItem="ua2-hf-0oF" secondAttribute="centerY" id="m3M-d7-Evq"/>
+                <constraint firstAttribute="trailing" secondItem="ua2-hf-0oF" secondAttribute="trailing" constant="8" id="wEp-0q-ERy"/>
+                <constraint firstItem="ua2-hf-0oF" firstAttribute="leading" secondItem="Ip6-Ll-rSJ" secondAttribute="leading" constant="8" id="x1P-0c-xpI"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Ihk-7b-mKd"/>
+                    <exclude reference="MC3-iB-Zde"/>
+                    <exclude reference="Wog-Lj-2M1"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="textLabel" destination="ua2-hf-0oF" id="ig2-oc-5oo"/>
+            </connections>
+            <point key="canvasLocation" x="566" y="78"/>
+        </collectionReusableView>
+    </objects>
+</document>

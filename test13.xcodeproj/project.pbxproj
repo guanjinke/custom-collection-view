@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		E947E13C1A124DF600698D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E13B1A124DF600698D5E /* AppDelegate.swift */; };
 		E947E13F1A124DF600698D5E /* test13.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E947E13D1A124DF600698D5E /* test13.xcdatamodeld */; };
-		E947E1411A124DF600698D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E1401A124DF600698D5E /* ViewController.swift */; };
-		E947E1441A124DF600698D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947E1421A124DF600698D5E /* Main.storyboard */; };
 		E947E1461A124DF600698D5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E947E1451A124DF600698D5E /* Images.xcassets */; };
-		E947E1491A124DF600698D5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E947E1471A124DF600698D5E /* LaunchScreen.xib */; };
 		E947E1551A124DF600698D5E /* test13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E1541A124DF600698D5E /* test13Tests.swift */; };
+		E947E15F1A124F4C00698D5E /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E15E1A124F4C00698D5E /* MyCollectionViewController.swift */; };
+		E947E1611A124FCC00698D5E /* MyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E1601A124FCC00698D5E /* MyLayout.swift */; };
+		E947E1641A12585200698D5E /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947E1621A12585200698D5E /* MyCell.swift */; };
+		E947E1651A12585200698D5E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E947E1631A12585200698D5E /* MyCell.xib */; };
+		E9A120741A13033F002977E4 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A120721A13033F002977E4 /* CollectionHeaderView.swift */; };
+		E9A120771A133CF2002977E4 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A120761A133CF2002977E4 /* CollectionHeaderView.xib */; };
+		E9C43D761A14B331008AD30F /* CollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C43D751A14B331008AD30F /* CollectionFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +35,17 @@
 		E947E13A1A124DF600698D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E947E13B1A124DF600698D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E947E13E1A124DF600698D5E /* test13.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test13.xcdatamodel; sourceTree = "<group>"; };
-		E947E1401A124DF600698D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E947E1431A124DF600698D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E947E1451A124DF600698D5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E947E1481A124DF600698D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E947E14E1A124DF600698D5E /* test13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test13Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E947E1531A124DF600698D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E947E1541A124DF600698D5E /* test13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test13Tests.swift; sourceTree = "<group>"; };
+		E947E15E1A124F4C00698D5E /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		E947E1601A124FCC00698D5E /* MyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayout.swift; sourceTree = "<group>"; };
+		E947E1621A12585200698D5E /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		E947E1631A12585200698D5E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		E9A120721A13033F002977E4 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		E9A120761A133CF2002977E4 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		E9C43D751A14B331008AD30F /* CollectionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				E947E13B1A124DF600698D5E /* AppDelegate.swift */,
-				E947E1401A124DF600698D5E /* ViewController.swift */,
-				E947E1421A124DF600698D5E /* Main.storyboard */,
 				E947E1451A124DF600698D5E /* Images.xcassets */,
-				E947E1471A124DF600698D5E /* LaunchScreen.xib */,
 				E947E13D1A124DF600698D5E /* test13.xcdatamodeld */,
 				E947E1391A124DF600698D5E /* Supporting Files */,
+				E947E15E1A124F4C00698D5E /* MyCollectionViewController.swift */,
+				E947E1601A124FCC00698D5E /* MyLayout.swift */,
+				E947E1621A12585200698D5E /* MyCell.swift */,
+				E947E1631A12585200698D5E /* MyCell.xib */,
+				E9A120721A13033F002977E4 /* CollectionHeaderView.swift */,
+				E9A120761A133CF2002977E4 /* CollectionHeaderView.xib */,
+				E9C43D751A14B331008AD30F /* CollectionFooterView.swift */,
 			);
 			path = test13;
 			sourceTree = "<group>";
@@ -195,9 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E947E1441A124DF600698D5E /* Main.storyboard in Resources */,
-				E947E1491A124DF600698D5E /* LaunchScreen.xib in Resources */,
 				E947E1461A124DF600698D5E /* Images.xcassets in Resources */,
+				E947E1651A12585200698D5E /* MyCell.xib in Resources */,
+				E9A120771A133CF2002977E4 /* CollectionHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E947E1411A124DF600698D5E /* ViewController.swift in Sources */,
+				E9C43D761A14B331008AD30F /* CollectionFooterView.swift in Sources */,
+				E947E15F1A124F4C00698D5E /* MyCollectionViewController.swift in Sources */,
+				E947E1641A12585200698D5E /* MyCell.swift in Sources */,
+				E947E1611A124FCC00698D5E /* MyLayout.swift in Sources */,
+				E9A120741A13033F002977E4 /* CollectionHeaderView.swift in Sources */,
 				E947E13C1A124DF600698D5E /* AppDelegate.swift in Sources */,
 				E947E13F1A124DF600698D5E /* test13.xcdatamodeld in Sources */,
 			);
@@ -238,25 +254,6 @@
 			targetProxy = E947E14F1A124DF600698D5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E947E1421A124DF600698D5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E947E1431A124DF600698D5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E947E1471A124DF600698D5E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E947E1481A124DF600698D5E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E947E1561A124DF600698D5E /* Debug */ = {
@@ -345,6 +342,7 @@
 				INFOPLIST_FILE = test13/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -355,6 +353,7 @@
 				INFOPLIST_FILE = test13/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -411,6 +410,7 @@
 				E947E15A1A124DF600698D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E947E15B1A124DF600698D5E /* Build configuration list for PBXNativeTarget "test13Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +419,7 @@
 				E947E15D1A124DF600698D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
